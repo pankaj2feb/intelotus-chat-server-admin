@@ -6,7 +6,7 @@ This react app is admin app where service representaive can chat with online cus
 * npm start
 
 
-##### This app should be used along with 
+##### This app should be used along with below project
 * intelotus-chat-app
 * intelotus-chat-server 
 
