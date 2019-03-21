@@ -1,0 +1,26 @@
+.userList {
+  //border:1px solid red;
+  width:20%;
+  height:100%;
+  box-shadow:0 2px 5px 0 rgba(0,0,0,.1), 0 2px 10px 0 rgba(0,0,0,.07);
+  // margin:5%;
+  //text-align:left;
+  .userName {
+      //border:1px solid red;
+      background-color:#e59a16;
+      &:hover{
+        background-color:#af7d24;
+      }
+      
+     
+      text-align: center;
+      cursor:pointer;
+  }
+
+  .selected{
+    background-color:#af7d24;
+  }
+  
+
+}
+

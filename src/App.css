@@ -1,0 +1,59 @@
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px; }
+
+.appLogo {
+  padding-left: 10px; }
+
+.App-header {
+  text-align: center;
+  background: linear-gradient(to bottom, #04f9d7, #017590);
+  background-size: cover;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 40px;
+  color: white;
+  width: 100%; }
+
+.loginText {
+  position: absolute;
+  padding-right: 10px;
+  right: 0px; }
+
+.loginBox {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; }
+
+.loginChild {
+  width: 400px;
+  height: 40vh;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1), 0 2px 10px 0 rgba(0, 0, 0, 0.07);
+  overflow: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; }
+
+.App-title {
+  font-size: 1.5em; }
+
+.App-intro {
+  font-size: large; }
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }

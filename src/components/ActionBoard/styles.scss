@@ -1,0 +1,15 @@
+@import 'surface-material/form.scss';
+@import 'surface-material/buttons.scss';
+
+.actionBoard {
+    width:100%;
+    height:100%;
+    border:1px solid blue;
+    padding: 2%;
+    box-sizing: border-box;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
